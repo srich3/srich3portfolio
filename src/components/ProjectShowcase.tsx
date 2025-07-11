@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { 
-  ExternalLink, 
+import {  
   Github, 
   Play, 
   Zap, 
@@ -36,7 +35,6 @@ const ProjectShowcase: React.FC = () => {
     },
   ];
 
-  const categories = [...new Set(projects.map(p => p.category))];
 
   return (
     <section id="projects" className="section-padding bg-slate-50">
