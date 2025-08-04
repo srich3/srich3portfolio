@@ -117,7 +117,7 @@ const Hero: React.FC = () => {
         >
 
           <motion.a
-            href="/public/Resume_srichardson.pdf"
+            href="/srich3portfolio/Resume_spencer_richardson.pdf"
             download
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
