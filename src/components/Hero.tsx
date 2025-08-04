@@ -92,15 +92,19 @@ const Hero: React.FC = () => {
           variants={itemVariants}
           className="text-lg md:text-xl lg:text-2xl text-slate-300 mb-8 max-w-4xl mx-auto leading-relaxed"
         >
-          Building scalable web applications with modern technologies. 
-          Specializing in TypeScript, React, PHP and Drupal development.
+          Software Engineer with 8+ years of experience building cloud-scale distributed
+systems, AI-driven applications, and enterprise IT infrastructure. Proven expertise
+in C#, Python, JavaScript with strong focus on performance optimization, security
+assessment, and operational excellence. Experienced DRI for mission-critical
+systems supporting millions of users.
+
         </motion.p>
 
         <motion.div
           variants={itemVariants}
           className="flex flex-wrap justify-center gap-3 mb-12"
         >
-          {['TypeScript', 'Node.js', 'React', 'PHP', 'Drupal'].map((tech) => (
+          {[ 'Python', 'C#', 'TypeScript', 'Node.js', 'React', 'PHP', 'Drupal'].map((tech) => (
             <motion.span
               key={tech}
               whileHover={{ scale: 1.05, y: -2 }}
