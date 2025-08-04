@@ -17,8 +17,8 @@ const TechExpertise: React.FC = () => {
       color: "from-blue-500 to-blue-600",
       skills: [
         { name: "TypeScript", level: 80, description: "" },
-        { name: "JavaScript", level: 80, description: "" },
-        { name: "PHP++", level: 90, description: "" },
+        { name: "C#", level: 70, description: "" },
+        { name: "PHP", level: 90, description: "" },
         { name: "Python", level: 75, description: "" }
       ]
     },
