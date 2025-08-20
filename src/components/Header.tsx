@@ -29,7 +29,7 @@ const Header: React.FC = () => {
       } border-b border-slate-800`}
       style={{width: '100vw', margin: 0, transform: 'none'}}
     >
-      <nav className="flex justify-between items-center h-20">
+      <nav className="flex justify-between items-center h-15">
         {/* Logo */}
         <motion.div
           whileHover={{ scale: 1.05 }}

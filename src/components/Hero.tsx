@@ -121,7 +121,7 @@ systems supporting millions of users.
         >
 
           <motion.a
-            href="/srich3portfolio/Resume_spencer_richardson.pdf"
+            href="/srich3portfolio/spencer_richardson_resume_8_5_2025.pdf"
             download
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

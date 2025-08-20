@@ -136,16 +136,6 @@ const TechExpertise: React.FC = () => {
                   <div key={skill.name} className="group">
                     <div className="flex justify-between items-center mb-2">
                       <span className="font-semibold text-slate-800 text-sm">{skill.name}</span>
-                      <span className="text-sm text-slate-500 font-medium">{skill.level}%</span>
-                    </div>
-                    <div className="w-full bg-slate-200 rounded-full h-2 mb-3">
-                      <motion.div
-                        initial={{ width: 0 }}
-                        whileInView={{ width: `${skill.level}%` }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 1, delay: index * 0.1 }}
-                        className={`h-2 bg-gradient-to-r ${area.color} rounded-full`}
-                      />
                     </div>
                     <p className="text-sm text-slate-600 duration-300 leading-relaxed">
                       {skill.description}
